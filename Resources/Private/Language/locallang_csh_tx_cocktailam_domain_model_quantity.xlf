@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-01-14T17:04:36Z" product-name="cocktail_am">
+		<header/>
+		<body>
+			<trans-unit id="value.description">
+				<source>Valeur</source>
+			</trans-unit>
+			<trans-unit id="unit.description">
+				<source>Unite</source>
+			</trans-unit>
+			<trans-unit id="ingredient.description">
+				<source>Ingredient</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

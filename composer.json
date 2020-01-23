@@ -1,0 +1,28 @@
+{
+    "name": "amaurel/cocktail-am",
+    "type": "typo3-cms-extension",
+    "description": "OK",
+    "authors": [
+        {
+            "name": "Antoine Maurel",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amaurel\\CocktailAm\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amaurel\\CocktailAm\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "cocktail_am": "self.version",
+        "typo3-ter/cocktail-am": "self.version"
+    }
+}

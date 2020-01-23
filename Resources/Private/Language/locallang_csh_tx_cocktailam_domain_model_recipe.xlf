@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-01-14T17:04:36Z" product-name="cocktail_am">
+		<header/>
+		<body>
+			<trans-unit id="name.description">
+				<source>Nom</source>
+			</trans-unit>
+			<trans-unit id="photos.description">
+				<source>Photos</source>
+			</trans-unit>
+			<trans-unit id="nb_personnes.description">
+				<source>Nombre de personnes</source>
+			</trans-unit>
+			<trans-unit id="descriptiom.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="difficulty.description">
+				<source>Difficulte</source>
+			</trans-unit>
+			<trans-unit id="prep_t_ime.description">
+				<source>prepTIme</source>
+			</trans-unit>
+			<trans-unit id="tags.description">
+				<source>Tag</source>
+			</trans-unit>
+			<trans-unit id="steps.description">
+				<source>Steps</source>
+			</trans-unit>
+			<trans-unit id="reviews.description">
+				<source>Notes</source>
+			</trans-unit>
+			<trans-unit id="cocktail.description">
+				<source>Cocktail</source>
+			</trans-unit>
+			<trans-unit id="ustensils.description">
+				<source>Ustensiles</source>
+			</trans-unit>
+			<trans-unit id="quantity.description">
+				<source>Quantite</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
