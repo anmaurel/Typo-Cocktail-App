@@ -32,7 +32,11 @@
 					<td><f:link.action action="show" arguments="{cocktail : cocktail}"> {cocktail.name}</f:link.action></td>
 					<td><f:link.action action="show" arguments="{cocktail : cocktail}"> {cocktail.alcoholised}</f:link.action></td>
 					<td><f:link.action action="show" arguments="{cocktail : cocktail}"> {cocktail.description}</f:link.action></td>
-					<td><f:link.action action="show" arguments="{cocktail : cocktail}"> {cocktail.photos}</f:link.action></td>
+					<td>
+						<f:for each="{cocktail.photos}" as="cocktailimage">
+							<f:image image="{cocktailimage}" width="100" alt="" treatIdAsReference="1"/>
+						</f:for>
+					</td>
 					<td><f:link.action action="edit" arguments="{cocktail : cocktail}">Edit</f:link.action></td>
 					<td><f:link.action action="delete" arguments="{cocktail : cocktail}">Delete</f:link.action></td>
 				</tr>

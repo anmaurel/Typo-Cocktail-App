@@ -11,6 +11,10 @@
     "require": {
         "typo3/cms-core": "^8.7.1"
     },
+    "replace": {
+        "cocktail_am": "self.version",
+        "amaurel/cocktail-am": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "Amaurel\\CocktailAm\\": "Classes"
@@ -20,9 +24,5 @@
         "psr-4": {
             "Amaurel\\CocktailAm\\Tests\\": "Tests"
         }
-    },
-    "replace": {
-        "cocktail_am": "self.version",
-        "typo3-ter/cocktail-am": "self.version"
     }
 }
