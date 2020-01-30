@@ -694,6 +694,30 @@
                 "email": "antoinemaurel6@gmail.com",
                 "name": "Antoine Maurel",
                 "role": "Developer"
+            },
+            {
+                "company": "",
+                "email": "",
+                "name": "Tony Predrero",
+                "role": "Developer"
+            },
+            {
+                "company": "",
+                "email": "",
+                "name": "Leo Le Follezou Le Bar",
+                "role": "Developer"
+            },
+            {
+                "company": "",
+                "email": "",
+                "name": "Thomas Deasington",
+                "role": "Developer"
+            },
+            {
+                "company": "",
+                "email": "",
+                "name": "Kevin Danhiez",
+                "role": "Developer"
             }
         ],
         "plugins": [
